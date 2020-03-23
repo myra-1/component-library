@@ -1,0 +1,151 @@
+.container {
+  display: block;
+  position: relative;
+  /* give the box itself relative - want everything else to be relative to that box */
+  cursor: pointer;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  font-size: 22px;
+  user-select: none;
+}
+.container input {
+/* this is the box */
+  position: absolute;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  opacity: 0;
+  /* ^ turns it invisible - hiding the default properties of the input so we can make and style our own*/
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border: 2px solid black;
+  /* border so we can see it */
+}
+.container input:checked ~ .checkmark {
+  /* .checkmark is the span tag */
+  background-color: black;
+}
+.checkmark::after {
+  /* create an element AFTER this class */
+  content: '';
+  position: absolute;
+  display: none;
+}
+.container input:checked ~ .checkmark::after {
+  display: block;
+}
+.container .checkmark::after {
+  left: 10px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+/* ====CHECKBOX2======================================== */
+
+.container2 {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  font-size: 22px;
+  user-select: none;
+}
+.container2 input {
+  position: absolute;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+.checkmark2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border: 2px solid lightblue;
+}
+.container2 input:checked ~ .checkmark2 {
+  background-color:lightblue;
+}
+.checkmark2::after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+.container2 input:checked ~ .checkmark2::after {
+  display: block;
+}
+.container2 .checkmark2::after {
+  left: 10px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+
+
+/* ====CHECKBOX3=============================================== */
+
+.container3 {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  font-size: 22px;
+  user-select: none;
+}
+.container3 input {
+  position: absolute;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+.checkmark3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border: 2px solid black;
+}
+.container3 input:checked ~ .checkmark3 {
+  background-color: black;
+}
+.checkmark3::after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+.container3 input:checked ~ .checkmark3::after {
+  display: block;
+}
+.container3 .checkmark3::after {
+  left: 10px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
