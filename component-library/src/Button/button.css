@@ -1,0 +1,97 @@
+button {
+  border-radius: 2px;
+  padding: 5px 25px;
+}
+.button-large {
+  padding: 10px 50px;
+}
+
+/* ===========PRIMARY==================== */
+
+.button-primary {
+  background-color: rgba(51, 160, 255, 1);
+  color: white;
+  border-color: #33A0FF;
+}
+.button-primary:hover {
+  background-color: rgba(46, 144, 229);
+  color: white;
+  border-color: #2E90E5;
+}
+.button-primary-faded {
+  background-color: rgba(51, 160, 255, .1);
+  color: #33A0FF;
+  border-color: rgba(51, 160, 255, .1);
+}
+.button-primary-white {
+  color: rgba(51, 160, 255);
+  background-color: white;
+  border-color: #33A0FF;
+}
+
+/* ===========DANGER==================== */
+
+.button-danger {
+  background-color: rgb(255, 72, 88);
+  color: white;
+  border-color: rgb(255, 72, 88);
+}
+.button-danger:hover {
+  background-color: rgba(245, 56, 72);
+  color: white;
+  border-color: #FF4858;
+}
+.button-danger-faded {
+  background-color: rgba(255, 72, 88, .1);
+  color:#FF4858;
+  border-color: rgba(255, 72, 88, .1);
+}
+.button-danger-white {
+color: #FF4858;
+background-color: white;
+border-color: #FF4858;
+}
+
+/* ===========WARNING==================== */
+.button-warning {
+  background-color: rgb(255, 198, 0);
+  color: white;
+  border-color: rgb(255, 198, 0);
+}
+.button-warning:hover {
+  background-color: rgb(235, 182, 0);
+  color: white;
+  border-color: rgb(235, 182, 0);;
+}
+.button-warning-faded {
+  background-color: rgba(255, 198, 0, .1);
+  color: rgb(255, 198, 0);
+  border-color: rgba(255, 198, 0, .1);
+}
+.button-warning-white {
+color: rgb(255, 198, 0);
+background-color: white;
+border-color: rgb(255, 198, 0);
+}
+
+/* ===========SUCCESS==================== */
+.button-success {
+  background-color: rgb(10, 208, 10);
+  color: white;
+  border-color: rgb(10, 208, 10)
+}
+.button-success:hover {
+  background-color: rgb(7, 193,7);
+  color: white;
+  border-color: rgb(7, 193, 7)
+}
+.button-success-faded {
+  background-color: rgba(10, 208, 10, .1);
+  color: rgb(10,208,10);
+  border-color: rgba(10, 208, 10, .1)
+}
+.button-success-white {
+  color: rgb(10, 208, 10);
+  background-color: white;
+  border-color: rgb(10, 208, 10)
+}
