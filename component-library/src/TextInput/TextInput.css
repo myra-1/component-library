@@ -1,0 +1,20 @@
+label {
+  display: block;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.input-small {
+  padding: 3px 10px;
+  width: 180px;
+  border: 1px solid lightgrey;
+}
+.input-medium {
+  padding: 7px 10px;
+  width: 180px;
+  border: 1px solid lightgrey;
+}
+.input-large {
+  padding: 11px 10px;
+  width: 180px;
+  border: 1px solid lightgrey;
+}
