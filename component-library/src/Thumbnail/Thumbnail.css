@@ -1,0 +1,38 @@
+.hoverImage {
+  display: none;
+}
+
+.mainImage:hover {
+  display: none;
+}
+
+.mainImage:hover ~ .hoverImage {
+  display:block;
+}
+/* HOVER IMAGE 1 */
+
+.hoverImage1 {
+  display: none;
+}
+
+.mainImage:hover {
+  display: none;
+}
+
+.mainImage:hover ~ .hoverImage1 {
+  display:block;
+}
+
+/* SIDEWAYS IMAGE */
+
+.sidehoverImage {
+  display: none;
+}
+
+.sideImage:hover {
+  display: none;
+}
+
+.sideImage:hover ~ .sidehoverImage {
+  display:block;
+}
