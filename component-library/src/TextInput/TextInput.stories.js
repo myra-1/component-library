@@ -5,12 +5,12 @@ import "./TextInput.css"
 
 
 storiesOf("Text Input", module)
-  .add("Input Small", () => (
+  .add("Small", () => (
     <Input label="Email" placeholder="Email" type="input-small" />
   ))
-  .add("Input Medium", () => (
+  .add("Medium", () => (
     <Input label="Email" placeholder="Email" type="input-medium" />
   ))
-  .add("Input Large", () => (
+  .add("Large", () => (
     <Input label="Email" placeholder="Email" type="input-large" />
   ))
