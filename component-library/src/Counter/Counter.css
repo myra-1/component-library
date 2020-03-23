@@ -1,0 +1,13 @@
+.counter {
+  background-color:#F6F7F8;
+  border:6px solid #F6F7F8;
+}
+
+.counterButton {
+  border: none;
+  background-color:#F6F7F8;
+  color:#33A0FF;
+  font-weight: 600;
+  font-size: 16px;
+  width: 1%;
+} 
